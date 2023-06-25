@@ -43,6 +43,14 @@
       font-weight: 400;
       color: hsl(220, 15%, 55%);
     }
+    a {
+      text-decoration: none; /* Remove underline from the link */
+    }
+
+    a:hover {
+      opacity: 0.8; /* Reduce opacity when hovering over the link */
+    }
+
   </style>
 </head>
 <body>
@@ -50,7 +58,10 @@
   
   <div class="attribution">
     <div class="card">
-      <img src="images/image-qr-code.png" width="100%">
+      <a href="https://www.frontendmentor.io/" target="_blank">
+        <img src="images/image-qr-code.png" width="100%">
+      </a>
+      
       <h1>Improve your front-end skills by building projects</h1>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
